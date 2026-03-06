@@ -38,7 +38,7 @@ cargo run -- all          #  Everything at once
 
 
 ###  Architecture
-
+```
 ┌─────────────────────────────────────┐
 │           Your Code                 │
 ├─────────────────────────────────────┤
@@ -54,10 +54,10 @@ cargo run -- all          #  Everything at once
     [HARDWARE ABSTRACTION LAYER]
          ↓
      (hopefully not here)
-
+```
 
 ### Project Structure
-
+```
 windows-internals/
 ├── Cargo.toml
 ├── README.md
@@ -79,7 +79,7 @@ windows-internals/
 │       ├── thread_pool.rs      # Thread management demo
 │       ├── sandbox.rs          # Job object sandbox demo
 │       └── injector.rs         # DLL injection demo (educational)
-
+```
 
 ## Key Concepts
 * Processes
