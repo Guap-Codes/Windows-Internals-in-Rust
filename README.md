@@ -24,7 +24,7 @@ All wrapped in safe-ish Rust abstractions that won't (shouldn't) bluescreen your
 # Clone and build
 git clone https://github.com/Guap-Codes/Windows-Internals-in-Rust.git
 
-cd windows-internals
+cd Windows-Internals-in-Rust
 
 cargo build --release
 ```
