@@ -30,12 +30,13 @@ cargo build --release
 ```
 
 # Run examples
+```bash
 cargo run -- sandbox      #  Sandboxed process
 cargo run -- threads      #  Thread pool demo  
 cargo run -- spawn        #  Process spawner
 cargo run -- inject       #  Memory operations (educational!)
 cargo run -- all          #  Everything at once
-
+```
 
 ###  Architecture
 ```
